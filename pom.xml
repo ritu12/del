@@ -261,6 +261,7 @@
 
         </executions>
       </plugin>
+      </plugins>
 
         
       <scm>
