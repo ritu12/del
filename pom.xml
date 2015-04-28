@@ -263,14 +263,14 @@
       </plugin>
 
         
-        
-    </build>
-    
-    	<scm>
+      <scm>
         <url>https://github.com/ritu12/del/tree/master/src</url>
         <connection>scm:git:https://github.com/ritu12/del.git</connection>
         <developerConnection>scm:git:https://github.com/ritu12/del.git</developerConnection>
         <tag>master</tag>
     </scm>
+    </build>
+    
+    
     
 </project>
