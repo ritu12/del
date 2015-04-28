@@ -43,6 +43,13 @@
   
     
   <dependencies>
+  	
+  	<scm>
+        <url>http://172.27.59.8:7990/projects/AR/repos/artifact_repo/src</url>
+        <connection>scm:git:http://administrator@172.27.59.8:7990/scm/ar/artifact_repo.git</connection>
+        <developerConnection>scm:git:http://administrator@172.27.59.8:7990/scm/ar/artifact_repo.git</developerConnection>
+        <tag>master</tag>
+    </scm>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -258,16 +265,11 @@
 
         </executions>
       </plugin>
-<plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-release-plugin</artifactId>
-        <version>2.5.2</version>
-        <configuration>
-          <tagNameFormat>v@{project.version}</tagNameFormat>
-        </configuration>
-      </plugin>
-        </plugins>
+
         
         
     </build>
+    
+    
+    
 </project>
