@@ -44,12 +44,13 @@
     
   <dependencies>
   	
-  	<scm>http://172.27.59.8:7990/projects/AR/repos/artifact_repo/src
-        <url></url>
+  	<scm>
+        <url>https://github.com/ritu12/del/tree/master/src</url>
         <connection>scm:git:https://github.com/ritu12/del.git</connection>
         <developerConnection>scm:git:https://github.com/ritu12/del.git</developerConnection>
         <tag>master</tag>
     </scm>
+    
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
