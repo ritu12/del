@@ -4,7 +4,7 @@
   <groupId>org.suda.customerMgr</groupId>
   <artifactId>Spring_TDD_POC</artifactId>
   <packaging>war</packaging>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.4</version>
   <name>Spring_TDD_POC Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
